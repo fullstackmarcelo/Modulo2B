@@ -1,12 +1,12 @@
 .contenedor-top {
       display: flex;
       flex-direction: row;
-      width: 1850px;
+      width: 1420;
       height: 250px;
-      align-items: ;
       margin-bottom: 20px;
       margin-left: 5px;
-      margin-right: 5px;
+      margin-right: 10px;
+      justify-content: space-between;
       border: solid black
   }
   
@@ -14,7 +14,7 @@
  .contenedor{
       display: flex;
       height: 250px;
-      width: 300px;
+      width: 250px;
       color: white;
       align-items: center;
       justify-content: center;
@@ -26,12 +26,10 @@
   
  .contenedor:nth-child(2){
       background-color: blue;
-      margin-left: 550px;
   }
   
   .contenedor:nth-child(3){
       background-color: green;
-      margin-left: 550px;
   }
   
   
